@@ -7,7 +7,7 @@ public class open {
 		System.setProperty("webdriver.chrome.driver","./software/chromeDriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://in.tradingview.com/");
-		driver.close();
+		driver.quit();
 
 	}
 

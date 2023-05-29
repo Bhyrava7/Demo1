@@ -9,7 +9,6 @@ public class Demo {
 		System.setProperty("webdriver.chrome.driver", "./software/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.indianmoney.com");
-
 	}
 
 }
